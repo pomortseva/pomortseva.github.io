@@ -1,0 +1,87 @@
+body {
+    background-color: #000;
+}
+
+header {
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    color: #ddd;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    width: 80%;
+    margin: 20px auto 20px;
+    padding-bottom: 10px;
+}
+
+h2, label {
+    color: #ddd;
+}
+
+.control-label {
+    padding-right: 0;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.nav-pills > li > a {
+    background-color: #000;
+    border-left: 3px solid #000;
+    border-radius: 0;
+    color: #888;
+}
+
+.nav-pills > li.active > a {
+    background-color: #222;
+    border-left: 3px solid #fff;
+}
+
+.nav-pills > li.active > a:hover {
+    border-left: 3px solid #fff;
+    background-color: #222;
+}
+
+.nav-pills > li > a:hover {
+    color: #ccc;
+    background-color: #000;
+}
+
+.nav-stacked>li + li {
+    margin-top: 0;
+}
+
+.required {
+    color: #922;
+}
+
+.validation-message {
+    font-size: 11px;
+    color: #922;
+}
+
+#me {
+    float: left;
+    padding: 5px;
+    border: 1px solid #333;
+    margin: 15px;
+    width: 150px;
+}
+
+#about {
+    color: #aaa;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+}
+
+#success {
+    color: #ccc;
+}
+
+#contacts {
+    list-style-type: none;
+}
+
+li.second-level {
+    padding-left: 20px;
+}
